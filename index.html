@@ -342,49 +342,6 @@
         <p class="text-xs text-gray-500 mt-1">Lütfen katılım durumunuzu en geç 1 Ağustos 2026 tarihine kadar bildiriniz.</p>
       </div>
 
-      <!-- Notification Alert -->
-      <div id="rsvpAlert" class="hidden mb-6 p-4 rounded-lg text-sm text-center font-medium"></div>
-
-      <form id="rsvpForm" class="max-w-md mx-auto space-y-4">
-        <div>
-          <label class="block font-serif text-xs text-burgundy uppercase font-semibold mb-1">Ad Soyad *</label>
-          <input type="text" id="guestName" required placeholder="Adınız ve Soyadınız" class="w-full bg-white border border-gold/40 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold transition">
-        </div>
-
-        <div>
-          <label class="block font-serif text-xs text-burgundy uppercase font-semibold mb-1">Katılım Durumu *</label>
-          <div class="grid grid-cols-2 gap-3">
-            <label class="border border-gold/40 rounded-lg p-3 text-center cursor-pointer hover:bg-gold/10 transition flex items-center justify-center gap-2">
-              <input type="radio" name="attendance" value="attending" checked class="text-gold focus:ring-gold">
-              <span class="text-xs font-medium text-gray-800">Katılıyorum</span>
-            </label>
-            <label class="border border-gold/40 rounded-lg p-3 text-center cursor-pointer hover:bg-gold/10 transition flex items-center justify-center gap-2">
-              <input type="radio" name="attendance" value="declining" class="text-gold focus:ring-gold">
-              <span class="text-xs font-medium text-gray-800">Katılamıyorum</span>
-            </label>
-          </div>
-        </div>
-
-        <div id="guestCountGroup">
-          <label class="block font-serif text-xs text-burgundy uppercase font-semibold mb-1">Kişi Sayısı</label>
-          <select id="guestCount" class="w-full bg-white border border-gold/40 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold transition">
-            <option value="1">1 Kişi</option>
-            <option value="2">2 Kişi</option>
-            <option value="3">3 Kişi</option>
-            <option value="4">4 Kişi</option>
-          </select>
-        </div>
-
-        <div>
-          <label class="block font-serif text-xs text-burgundy uppercase font-semibold mb-1">Çiftimize Mesajınız</label>
-          <textarea id="guestMessage" rows="3" placeholder="Tebrik ve iyi dilekleriniz..." class="w-full bg-white border border-gold/40 rounded-lg px-4 py-2.5 text-sm focus:outline-none focus:border-gold focus:ring-1 focus:ring-gold transition"></textarea>
-        </div>
-
-        <button type="submit" class="w-full bg-gradient-to-r from-goldDark via-gold to-goldDark text-burgundy font-serif font-bold text-xs uppercase tracking-widest py-3.5 px-6 rounded-lg shadow-lg hover:brightness-105 active:scale-[0.99] transition duration-200">
-          Formu Gönder
-        </button>
-      </form>
-    </div>
 
     <!-- FOOTER -->
     <footer class="text-center py-8 text-goldLight/60 text-xs font-serif">
